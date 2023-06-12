@@ -1,4 +1,5 @@
 $colorfondo:#ee82ee;
+$color-primary: #8a2be2;
 *{
     margin: 0;
     padding: 0;
@@ -9,12 +10,16 @@ body{
 }
 header{
     nav{
+        margin: 0 auto;
         padding: 0.5rem;
+        display: contents;
+        justify-content: center;
+        
         ul{
             background-color: #492049be;
-            height: 3.5rem;
+            height: 3rem;
             display: flex;
-            justify-content: right;
+            align-items: flex-end;
             align-items: center;
             li{
                 a{
@@ -29,16 +34,9 @@ header{
                 }
             }
         }
-        article{
-            h1{
-                display: inline;
-                em{
-                    display: flex;
-                    position: absolute;
-                    top: 4px;
-                    margin-top: 0px auto;
-                }
-            }
+        .textlogo{
+            position: absolute;
+            top: 1px;
         }
     }
 }
@@ -58,10 +56,6 @@ header{
         }
     }
 }  
-    
-  
-    
-  
 
 main{
     margin: 0;
@@ -85,9 +79,31 @@ main{
     }
 }
 
+
 @media (max-width: 768px) {
     .container img {
         flex-basis: 100%;
     }
+}
 
+
+.footer{
+    background-color: $color-primary;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .footer-text {
+        span {
+            color: lighten($color-primary, 20%);
+        }
+    }
+    a{
+    display: inline-block;
+    margin-left: 10px;
+        img{
+            width: 50px;
+        }
+    }
 }

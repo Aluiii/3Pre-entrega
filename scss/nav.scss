@@ -1,35 +1,3 @@
-header{
-    nav{
-        padding: 0.5rem;
-        ul{
-            background-color: #492049be;
-            height: 3.5rem;
-            display: flex;
-            justify-content: right;
-            align-items: center;
-            li{
-                a{
-                    color: #2b032b;
-                    text-decoration: none;
-                    padding: 5rem;
-                    &:hover{
-                        background-color: #f372f3;
-                        color: #605088;
-                        border-radius: 5.5px;
-                    }
-                }
-            }
-        }
-        article{
-            h1{
-                display: inline;
-                em{
-                    display: flex;
-                    position: absolute;
-                    top: 4px;
-                    margin-top: 0px auto;
-                }
-            }
-        }
-    }
+main{
+    display: flex;
 }
