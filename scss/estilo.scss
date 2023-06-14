@@ -14,10 +14,12 @@ header{
         padding: 0.5rem;
         display: contents;
         justify-content: center;
-        
         ul{
             background-color: #492049be;
-            height: 3rem;
+            padding: auto;
+            margin: 1rem auto;
+            height: 5rem auto;
+            border-radius: 2px;
             display: flex;
             align-items: flex-end;
             align-items: center;
@@ -34,12 +36,14 @@ header{
                 }
             }
         }
-        .textlogo{
-            position: absolute;
-            top: 1px;
-        }
     }
 }
+.logoi{
+    width: 250px;
+    display: flex;
+    
+}
+
 @media (max-width: 767px) {
     .nav {
         flex-direction: column;
@@ -57,42 +61,30 @@ header{
     }
 }  
 
-main{
-    margin: 0;
-    padding: 0;
+.form-container{
+    margin: auto;
+    padding-bottom: 1rem;
     display: flex;
-    img{
-        margin-left: 1rem;
-    }
-    article{
-        height: 100% auto;
-        div{
-            width: 100%;
-        }
+    justify-content: center;
+    text-align: center;
+    .container img{
+        width: 300px;
     }
 }
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    .container img {
-    max-width: 100%;
-    }
-}
-
-
-@media (max-width: 768px) {
+@media (max-width: 768px){
     .container img {
         flex-basis: 100%;
     }
 }
 
-
 .footer{
     background-color: $color-primary;
     color: white;
-    padding: 20px;
+    padding: 1rem;    
     display: flex;
     align-items: center;
+    position: relative;
+    bottom: 0px;
     justify-content: space-between;
     .footer-text {
         span {
@@ -107,3 +99,26 @@ main{
         }
     }
 }
+
+$gallery-item-width: 300px;
+$gallery-item-height: 300px;
+
+.gallery {
+    display: flex;
+    flex: content;
+    .gallery-item {
+        align-content: flex-start;
+        width: $gallery-item-width;
+        height: $gallery-item-height;
+        margin: 5px;
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+
+
+// Establecer el tamaño de las imágenes dentro de los elementos de la galería
