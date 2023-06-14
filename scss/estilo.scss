@@ -100,8 +100,8 @@ header{
     }
 }
 
-$gallery-item-width: 300px;
-$gallery-item-height: 300px;
+$gallery-item-width: 400px;
+$gallery-item-height: 400px;
 
 .gallery {
     display: flex;
@@ -118,7 +118,19 @@ $gallery-item-height: 300px;
         }
     }
 }
-
-
-
-// Establecer el tamaño de las imágenes dentro de los elementos de la galería
+body{
+    main{
+        width: auto;
+        margin: 0 auto;
+        padding: 0 auto;
+        width: 95%;
+        text-align: center;
+        img{
+            margin: 1rem;
+            width: 37vw;
+            img:hover{
+                width: 40vw;
+            }
+        }
+    }
+}
