@@ -9,34 +9,7 @@ body{
     background-color:$colorfondo;
 }
 header{
-    nav{
-        margin: 0 auto;
-        padding: 0.5rem;
-        display: contents;
-        justify-content: center;
-        ul{
-            background-color: #492049be;
-            padding: auto;
-            margin: 1rem auto;
-            height: 5rem auto;
-            border-radius: 2px;
-            display: flex;
-            align-items: flex-end;
-            align-items: center;
-            li{
-                a{
-                    color: #2b032b;
-                    text-decoration: none;
-                    padding: 5rem;
-                    &:hover{
-                        background-color: #f372f3;
-                        color: #605088;
-                        border-radius: 5.5px;
-                    }
-                }
-            }
-        }
-    }
+    @import "nav";
 }
 .logoi{
     width: 250px;
@@ -133,4 +106,8 @@ body{
             }
         }
     }
+}
+
+.i1{
+    width: 300px;
 }

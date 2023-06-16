@@ -16,9 +16,7 @@ header nav {
     padding: auto;
     margin: 1rem auto;
     height: 5rem auto;
-    border-radius: 2px;
-    display: flex;
-    align-items: flex-end;
+    border-radius: 5.5px;
     align-items: center; }
     header nav ul li a {
       color: #2b032b;
@@ -99,3 +97,6 @@ body main {
     width: 37vw; }
     body main img img:hover {
       width: 40vw; }
+
+.i1 {
+  width: 300px; }
