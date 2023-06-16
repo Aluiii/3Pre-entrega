@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubre nuestra página de turnos para agendar fácilmente tus citas. Proporcionamos acceso rápido y conveniente a través de teléfono, email o formulario en línea. Obtén dirección precisa y detalles de contacto. Elige la fecha y hora que mejor se adapte a tu agenda. Simplifica la gestión de tus citas con nosotros.">
+    <meta name="keywords" content="turnos online, agendar citas, teléfono de contacto, email de contacto, dirección exacta, fecha y hora, gestión de citas, servicio de programación, accesibilidad a turnos, reserva de citas">
+    <link rel="shortcut icon" href="../img/favicon_io/5026448_polish_cosmetic_nail varnish icon_nail polish_nail_icon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Olinail | Turnos</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid fondo">
+                <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" alt="logo" width="60px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./turnos.html">Turnos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="./galeria.html">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="./productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="./nosotros.html">Nosotros</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="form-container">
+            <form action="contenedor">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" placeholder="Rosamel">
+                </div>
+                <div class="form-group">
+                    <label for="number">Teléfono:</label>
+                    <input type="text" id="number" placeholder="999nuevecito">
+                </div>
+                <div class="form-group">
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" required placeholder="Rosamel@...com">
+                </div>
+                <div class="form-group">
+                    <label for="ubication">Dirección:</label>
+                <input type="text" id="ubication">
+                </div>
+                <div class="form-group">
+                    <label for="day">Fecha:</label>
+                    <input type="date" id="day">
+                </div>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Enviar
+                </button>
+            </form>
+        </div>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Felicidades</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                    Aguarde a ser contactado.
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">De acuerdo</button>
+                    <button type="button" class="btn btn-primary">Arrepentirse</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-text">
+            Gracias por visitar nuestro sitio web. <span>¡Apreciamos tu apoyo!</span>
+        </div>
+        <a href="https://www.facebook.com/" target="_blank"><img src="../img/facebook-logo.png" width="50px" alt="Facebook"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="../img/instagram-logo.png" width="50px" alt="Instagram"></a>
+        <a href="https://www.twitter.com/" target="_blank"><img src="../img/twitter-logo.png" width="50px" alt="Twitter"></a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
