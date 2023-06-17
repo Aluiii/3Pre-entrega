@@ -11,6 +11,8 @@ header nav {
   padding: 0.5rem;
   display: contents;
   justify-content: center; }
+  header nav a img {
+    border-radius: 3px; }
   header nav ul {
     background-color: #492049be;
     padding: auto;
@@ -27,10 +29,6 @@ header nav {
         color: #605088;
         border-radius: 5.5px; }
 
-.logoi {
-  width: 250px;
-  display: flex; }
-
 @media (max-width: 767px) {
   .nav {
     flex-direction: column;
@@ -43,18 +41,76 @@ header nav {
       background-color: #f372f3;
       flex-basis: 100%; } }
 
-.form-container {
-  margin: auto;
-  padding-bottom: 1rem;
-  display: flex;
+.m1 {
+  margin: 2rem;
+  display: flex; }
+  .m1 section {
+    display: inline-block;
+    justify-content: center;
+    right: 3rem; }
+    .m1 section p {
+      font: #8a2be2;
+      font-family: 'Comfortaa', cursive;
+      margin: 2rem;
+      text-align: center; }
+  .m1 img {
+    width: 100% auto;
+    border-radius: 15px; }
+
+@media screen and (max-width: 768px) {
+  .m1 {
+    display: block; }
+    .m1 img {
+      width: 200px; } }
+
+.m2 .form-container {
+  padding: 2rem;
   justify-content: center;
   text-align: center; }
-  .form-container .container img {
-    width: 300px; }
+  .m2 .form-container .form-group {
+    padding: 1rem; }
+
+.m3 {
+  width: auto;
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 95%;
+  text-align: center; }
+  .m3 img {
+    border-radius: 5px;
+    margin: 1rem;
+    width: 37vw; }
+    .m3 img:hover {
+      transform: scale(1.1, 1.1); }
 
 @media (max-width: 768px) {
   .container img {
     flex-basis: 100%; } }
+
+.m4 {
+  text-align: center; }
+  .m4 div {
+    display: inline-block;
+    width: 400px; }
+  .m4 iframe {
+    padding: 2rem;
+    border-radius: 5px; }
+
+.m5 h2 {
+  text-align: center; }
+
+.m5 div {
+  text-align: center;
+  padding: 0rem 4rem; }
+  .m5 div p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium; }
+  .m5 div img {
+    width: 400px; }
+
+.m6 {
+  padding: 3rem;
+  width: 600px; }
 
 .footer {
   background-color: #8a2be2;
@@ -73,30 +129,7 @@ header nav {
     .footer a img {
       width: 50px; }
 
-.gallery {
-  display: flex;
-  flex: content; }
-  .gallery .gallery-item {
-    align-content: flex-start;
-    width: 400px;
-    height: 400px;
-    margin: 5px; }
-    .gallery .gallery-item .gallery-item img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover; }
-
-body main {
-  width: auto;
-  margin: 0 auto;
-  padding: 0 auto;
-  width: 95%;
-  text-align: center; }
-  body main img {
-    margin: 1rem;
-    width: 37vw; }
-    body main img img:hover {
-      width: 40vw; }
-
-.i1 {
-  width: 300px; }
+main div .Historia {
+  text-align: center;
+  margin: 2rem;
+  padding: 0.5rem; }

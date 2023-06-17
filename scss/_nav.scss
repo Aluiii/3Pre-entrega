@@ -3,6 +3,11 @@ nav{
     padding: 0.5rem;
     display: contents;
     justify-content: center;
+    a{
+        img{
+            border-radius: 3px;
+        }
+    }
     ul{
         background-color: #492049be;
         padding: auto;
